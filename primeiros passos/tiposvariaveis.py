@@ -13,4 +13,5 @@ print(type(True))
 letras = ["A", "B", "C"]
 print(type(letras))
 
-print("bia", type(bia))
+nome = "Bia"
+print("Bia", type(nome))
