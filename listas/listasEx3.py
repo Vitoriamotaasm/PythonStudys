@@ -3,24 +3,24 @@ lista2 = ["d", "e", "f"]
 
 lista1.extend(lista2) #extend une duas listas
 print(lista1)
-lista1.remove("e") #removendo letra e da lista
+lista1.remove("e") #removendo pelo valor
 
-lista1.pop(2) #removendo com o pop o segundo elemento da lista
+lista1.pop(2) #remove por posicao
 print(lista1)
 
 lista1.pop() #removendo o ultimo elemento da lista
 print(lista1)
 
-del lista1[0] #removendo o primeiro elemento da lista
+del lista1[0] #remove por indice
 print(lista1)
 
-lista1.clear() #removendo todos os itens da lista
+lista1.clear() #remove tudo
 print(lista1)
 
-lista1.append("Maca") #add itens na lista
+lista1.append("Maca") #add item no final
 print(lista1)
 
-lista1.insert(1, "Goiaba") #add item na 2 posicao
+lista1.insert(1, "Goiaba") #add item em posicao especifica 
 print(lista1)
 
 if "Goiaba" in lista1:
@@ -31,5 +31,5 @@ else:
 lista1[2] = "Banana"
 print(lista1)
 
-lista1[1:3] = ["A", "B"]
+lista1[1:3] = ["A", "B"] #alteracao em fatia (slice): troca um pedaco da lista por outra coisa
 print(lista1)
