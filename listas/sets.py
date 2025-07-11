@@ -26,11 +26,11 @@ print(imprimindo)
 valorEmAmbos = listaSet1.intersection(listaSet2)
 print(valorEmAmbos)
 
-#symmetric_difference_update: itens diferentes
+#symmetric_difference_update: itens difererentes
 listaSet1.symmetric_difference_update(listaSet2)
 print(listaSet1)
 
-#symmetri_difference: itens diferentes em ambos conjuntos
+#symmetri_difference: itens diferentes em ambos conjuntos sem alterar o original
 listaS1 = {"Python", "C++", "Java"}
 listaS2 = {"VisualG", "Logica", "Python"}
 naoEstaoEmAmbas = listaS1.symmetric_difference(listaS2)
