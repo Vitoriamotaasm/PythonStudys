@@ -1,11 +1,11 @@
-import supermercado as sp
+import classes.supermercado.supermercado as sp
 
 sp.Supermercado()
 
 print(sp.produtos["Arroz"])
 
 
-from supermercado import produtos
+from classes.supermercado.supermercado import produtos
 
 print(produtos["Feijao"])
 
@@ -22,7 +22,7 @@ for produtos, preco in produtos.items():
     print(produtos, "-", preco)
 
 
-from supermercado import departamento
+from classes.supermercado.supermercado import departamento
 
 for produto, preco in departamento.items():
     print(produto)

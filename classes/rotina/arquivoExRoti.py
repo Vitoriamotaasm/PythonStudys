@@ -1,4 +1,4 @@
-from rotina import Rotina
+from classes.rotina.rotina import Rotina
 
 tarefa = Rotina("Romom")
 
