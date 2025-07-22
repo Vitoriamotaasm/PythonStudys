@@ -16,10 +16,10 @@ pyautogui.typewrite('Calculadora', interval=0.1)
 time.sleep(1)
 
 # Pressiona Enter pra abrir
-pyautogui.press('enter')
+#pyautogui.press('enter')
 
-pyautogui.typewrite('123+456')
-time.sleep(2)
+#pyautogui.typewrite('123+456')
+#time.sleep(2)
 
 pyautogui.press('enter')
 
